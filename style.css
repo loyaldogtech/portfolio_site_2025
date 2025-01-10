@@ -176,6 +176,12 @@ section {
   margin: auto 0;
 }
 
+.logo-pic {
+  display: flex;
+  height: 75px;
+  width: 50px;
+}
+
 img {
   border-radius: 25px;
 }
@@ -272,6 +278,7 @@ img {
 }
 
 .about-containers {
+  display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -279,13 +286,10 @@ img {
 
 .about-details-container {
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-.about-containers,
-.about-details-container {
-  display: flex;
-}
+
 
 .about-pic {
   border-radius: 2rem;
